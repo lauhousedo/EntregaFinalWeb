@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aqua;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
 h1 {
+    font-family: 'DM Sans', sans-serif;
     font-size: 8vw;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5em;
 }
