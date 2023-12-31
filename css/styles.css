@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #0038FF;
  }
  
  
  body {
-    background-color: #0038FF;
+    
     margin: 10px;
     height: 100vh;
  }
@@ -22,6 +23,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 8vw;
     font-weight: 100;
+    text-align: justify;
  }
  
  
@@ -30,3 +32,10 @@
     font-size: 5em;
  }
  
+ #apartado1 {
+    background-color: #0038FF;
+ }
+
+ #apartado2 h1 {
+    line-height: 1.1;
+ }
