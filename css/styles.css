@@ -40,6 +40,10 @@
     background-color: #0038FF;
  }
 
+#apartado2 {
+    height: 100vh;
+}
+
  #apartado2 h1 {
     line-height: 1;
  }
@@ -51,3 +55,37 @@
  .margen-propio {
     margin-top: 200px;
  }
+ .marquee-container {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid #0038FF;
+    border-bottom: 1px solid #0038FF;
+    overflow: hidden;
+  }
+
+ .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 10s linear infinite;
+  }
+
+  .marquee p {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  
+  @keyframes marquee {
+    from { left: 100%; }
+    to { left: -100%; }
+  }
+
+  #apartado3 {
+    background-color: #0038FF;
+    height: 100vh;
+  }
+
+#apartado3 .figcaption {
+    color: white;
+}
