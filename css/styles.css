@@ -56,7 +56,7 @@
     margin-top: 200px;
  }
  .marquee-container {
-    margin-top: 20px;
+    margin-top: 150px;
     width: 100%;
     border-top: 1px solid #0038FF;
     border-bottom: 1px solid #0038FF;
@@ -68,7 +68,7 @@
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
   }
 
   .marquee p {
@@ -88,4 +88,9 @@
 
 #apartado3 .figcaption {
     color: white;
+}
+
+.figcaption {
+    text-align: justify;
+    font-size: 1em;
 }
