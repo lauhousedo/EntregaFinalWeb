@@ -26,13 +26,33 @@
     text-align: justify;
  }
  
- 
+
+.card-title {
+    text-align: left;
+}
+.card-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5em;
+}
  p {
     font-family: 'DM Sans', sans-serif;
     font-size: 5em;
  }
 
- figcaption {
-    font-size: 1.5em;
- }
+ .figcaption {
+    text-align: justify;
+    font-size: 1em;
+}
 
+#Sec2 {
+    background-color: #0038FF;
+    height: 100vh;
+  }
+
+#Sec2 h1 {
+    color: white; 
+}
+
+#Sec2 .figcaption {
+    color: white;
+}
