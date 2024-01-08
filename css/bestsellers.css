@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0038FF;
+ }
+ 
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+      
+         
+    }
+
+    body {
+        margin: 10px;
+        height: 100vh;
+     }
+
+     h1 {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 7.5vw;
+        font-weight: 100;
+        text-align: justify;
+     }
+     
+     
+     p {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 5em;
+     }
+    
+     figcaption {
+        font-size: 1em;
+     }
+
+     
