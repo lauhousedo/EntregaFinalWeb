@@ -8,7 +8,6 @@
  
  body {
     
-    margin: 10px;
     height: 100vh;
  }
  
@@ -51,6 +50,7 @@
 
 #Sec2 h1 {
     color: white; 
+    margin: 10px;
 }
 
 #Sec2 .figcaption {
