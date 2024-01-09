@@ -4,6 +4,8 @@
     box-sizing: border-box;
     color: #ffffff;
  }
+
+ 
  
 
     img {
@@ -20,7 +22,7 @@
       background-size: 200px;
   
       -webkit-animation: AnimationName 6s ease infinite;
-      -moz-animation: AnimationName 6s ease infinite;
+      -moz-animation: AnimationName 10s ease infinite;
       animation: AnimationName 10s ease infinite;
   }
   
@@ -84,6 +86,7 @@
       font-family: 'DM Sans', sans-serif;
         font-size: 6.5vw;
        margin: auto;
+       line-height: 1.5;
        
      }
 
@@ -127,8 +130,21 @@
      @media (max-width: 767.98px) { 
 
       h3{
-         font-size: 2em;
+         font-size: 6vw;
+
       }
       
       }
-     
+
+
+      .stripe-6 {
+         color: black;
+         background: repeating-linear-gradient(
+           to right,
+           #f6ba52,
+           #f6ba52 10px,
+           #ffd180 10px,
+           #ffd180 20px
+         );
+
+      }
