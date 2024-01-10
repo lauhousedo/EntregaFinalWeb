@@ -17,15 +17,35 @@
 <body>
     <!-- JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- MENÚ NAVEGACIÓN -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+      <img src="img/Logo.png"> 
+    </button>
+    
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <img src="img/Logo.png">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <a class="nav-link custom-menu" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link custom-menu" href="about.html">ABOUT</a>
+              <a class="nav-link custom-menu" href="bestsellers.html">BEST SELLERS</a>
+              <a class="nav-link custom-menu" href="menu.html">MENU</a>
+              <a class="nav-link custom-menu" href="club.html">CLUB</a>
+        </div>
+      </div>
+    </div>
     <!-- SECC1 -->
-    <section id="Sec1" class="vh-100">
+    <section id="Sec1">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 columna1">
+                <div class="col-lg-5 columna1">
                     <div> <img src="img/bebidas.png" class="img-fluid" alt="..."> 
                     </div>
                       </div>
-                <div class="col-md-6 offset-md-1 columna2 p-0">
+                <div class="col-lg-6 offset-lg-1 columna2 p-0">
                     <div class="card border-0 rounded-0"></div>
                     <div class="card-body p-3">
                         <h1 class="card-title">IMMERSE YOURSELF IN THE FLAVORS</h1>
@@ -42,13 +62,13 @@
         <h1>MENU</h1>
         <div class="container">
             <div class="row">
-              <div class="col-md-2 offset-md-2"><div><img src="img/bebida1.jpg"><p class="figcaption mt-3">VALYRIAN FIRE_ </p></div></div>
-              <div class="col-md-2 offset-md-3"><div><img src="img/bebida3.jpg"><p class="figcaption mt-3">ILLYRIAN ELIXIR_ </p></div></div>
+              <div class="col-lg-2 offset-lg-2"><div><img src="img/bebida1.jpg"><p class="figcaption mt-3">VALYRIAN FIRE_ </p></div></div>
+              <div class="col-lg-2 offset-lg-3"><div><img src="img/bebida3.jpg"><p class="figcaption mt-3">ILLYRIAN ELIXIR_ </p></div></div>
             </div>
             <div class="row">
-              <div class="col-md-2"><div><img src="img/bebida4.jpg"><p class="figcaption mt-3">ST. FRANCIS_ </p></div></div>
-              <div class="col-md-3 offset-md-2"><div><img src="img/bebida2.jpg"><p class="figcaption mt-3">GATSBY SPRITZ_ </p></div></div>
-              <div class="col-md-2 offset-md-3"><div><img src="img/bebida5.jpg"><p class="figcaption mt-3">THE GOBLET OF FIRE_ </p></div></div>
+              <div class="col-lg-2"><div><img src="img/bebida4.jpg"><p class="figcaption mt-3">ST. FRANCIS_ </p></div></div>
+              <div class="col-lg-3 offset-lg-2"><div><img src="img/bebida2.jpg"><p class="figcaption mt-3">GATSBY SPRITZ_ </p></div></div>
+              <div class="col-lg-2 offset-lg-3"><div><img src="img/bebida5.jpg"><p class="figcaption mt-3">THE GOBLET OF FIRE_ </p></div></div>
             </div>
             </div>
           </div>
