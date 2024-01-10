@@ -15,6 +15,11 @@
          
     }
 
+    .stripes {
+      background-image: linear-gradient(90deg, #0300ff 25%, #ffffff 25%, #ffffff 50%, #0300ff 50%, #0300ff 75%, #ffffff 75%, #ffffff 100%);
+      background-size: 400.00px 400.00px;
+    }
+
  
 
      .css-selector {
@@ -94,7 +99,7 @@
 
      h2 {
       font-family: 'DM Sans', sans-serif;
-      font-size: 3vw;
+      font-size: 5vw;
       font-weight: 300;
       line-height: 1;
      }
@@ -102,7 +107,7 @@
      @media (max-width: 575.98px) { 
       h2 {
       
-         font-size: 5vw;
+         font-size: 3em;
          
         }
 
@@ -112,10 +117,21 @@
       
       }
 
+      .stripes {
+         background-image: linear-gradient(90deg, #0300ff 25%, #ffffff 25%, #ffffff 50%, #0300ff 50%, #0300ff 75%, #ffffff 75%, #ffffff 100%);
+         background-size: 270.00px 270.00px;
+       }
+   
+       .ratio-21x9 {
+           --bs-aspect-ratio: 100vh;
      
-     }
-     
-     
+
+       }
+      
+
+       
+      }
+         
      
      p {
         font-family: 'DM Sans', sans-serif;
@@ -133,18 +149,131 @@
          font-size: 6vw;
 
       }
+
+   
+      }
+
+      @media (max-width: 991.98px) { 
+
+         .card{
+            width: 400px;
+          }
+
+       }
+
+
+
+
+     .page-link {
+      color:#ffffff;
+     }
+
+     .card p {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+    
+    .card h2 {
+      font-size: 14px;
+      font-family: "Archivo Black", "Archivo", sans-serif;
+      font-weight: normal;
+    }
+
+    :root {
+      --primary: #555BFF;
+      --secondary: #22D2A0;
+      --background: white;
+      --border: #0300ff;
+
+    } 
+
+    .card {
+      background-color: var(--background);
+      display: block;
+
+      min-height: 80px;
+      border: 3px solid var(--primary);
+   
+     
+      box-shadow: 5px -5px 0 -2px var(--background), 5px -5px var(--border),
+            10px -10px 0 -2px var(--background), 10px -10px var(--border), 
+            15px -15px 0 -2px var(--background), 15px -15px var(--border), 
+            20px -20px 0 -2px var(--background), 20px -20px var(--border); 
+      transition: box-shadow 0.5s, top 0.5s, left 0.5s;
       
-      }
+      top: 0;
+      left: 0;
+      cursor: pointer;
+    }
+    
+    .card:hover {
+      top: -5px;
+
+      left: 1px;
+      box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
+          0 0 0 -2px var(--background), 0 0 0 0  var(--yellow),
+          0 0 0 -2px var(--background), 0 0 0 0  var(--orange),
+          0 0 0 -2px  var(--background), 0 0 0 0  var(--red);
+    }
 
 
-      .stripe-6 {
-         color: black;
-         background: repeating-linear-gradient(
-           to right,
-           #f6ba52,
-           #f6ba52 10px,
-           #ffd180 10px,
-           #ffd180 20px
-         );
+    blockquote {
+      font-family: 'DM Sans', sans-serif;
+     
 
-      }
+      color: #0300ff;
+      
+   }
+   
+   section#block_content {
+      background: #fff;
+       text-align: left;
+       
+   }
+ 
+  
+   
+
+
+   .imagehover {
+      position: relative;
+      width: 100%;
+      
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+    
+    }
+    
+    .imagehover:hover .overlay {
+      opacity: 1;
+    }
+    
+    .icon {
+      color: white;
+      font-size: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+   
