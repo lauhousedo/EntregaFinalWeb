@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0038FF;
+ }
+ 
+ 
+ body {
+    
+    margin: 0px;
+    height: 100vh;
+ }
+ 
+ 
+ img {
+    width: 100%;
+    vertical-align: middle;
+ }
+ 
+ 
+ h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7.5vw;
+    font-weight: 100;
+    text-align: justify;
+ }
+ 
+ 
+ p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5em;
+ }
+
+ figcaption {
+    font-size: 1.5em;
+ }
+ 
+ .btn-primary {
+   width: 200px;
+   background-color: white;
+   --bs-btn-hover-bg: #0037ff0c;
+   --bs-btn-active-bg: white;
+   --bs-btn-border-color: #0038FF;
+   --bs-btn-border-radius: 0px;
+   --bs-btn-border-width: 2px;
+}
+
+.offcanvas-header img {
+width: 240px;
+}
+
+
+.offcanvas-body a {
+   font-size: 1.3em;
+}
+
+button.btn.btn-primary {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+ }
+
+ #apartado1 {
+    background-color: #0038FF;
+ }
+
+#apartado2 {
+    height: 100vh;
+}
+
+ #apartado2 h1 {
+    line-height: 1;
+ }
+
+ .carousel-container {
+    margin-top: -400px;
+ }
+
+ .margen-propio {
+    margin-top: 200px;
+ }
+ .marquee-container {
+    margin-top: 15px;
+    width: 100%;
+    border-top: 1px solid #0038FF;
+    border-bottom: 1px solid #0038FF;
+    overflow: hidden;
+  }
+
+ .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 15s linear infinite;
+  }
+
+  .marquee p {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  
+  @keyframes marquee {
+    from { left: 100%; }
+    to { left: -100%; }
+  }
+
+  #apartado3 {
+    background-color: #0038FF;
+    height: 100vh;
+  }
+
+#apartado3 .figcaption {
+    color: white;
+}
+
+.figcaption {
+    text-align: justify;
+    font-size: 1em;
+}
+
+@media (max-width: 1900px) and (min-width: 1701px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+   .carousel-container {
+      margin-top: -250px;
+   }
+
+   .margen-propio {
+      margin-top: 300px;
+   }
+
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+}
+
+@media (max-width: 1199px) and (min-width: 995px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+}
+
+@media (max-width: 994px) and (min-width: 770px) {
+   .carousel-container {
+      margin-top: -150px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+   
+
+}
+
+@media (max-width: 769px) and (min-width: 570px) {
+   .carousel-container {
+      margin-top: 0px;
+   }
+
+   .margen-propio {
+      margin-top: 200px;
+   }
+
+h1 {
+   font-size: 9vw;
+}
+
+}
