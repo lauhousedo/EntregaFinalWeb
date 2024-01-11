@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0038FF;
+ }
+ 
+ 
+ body {
+    
+    height: 100vh;
+ }
+ 
+ 
+ img {
+    width: 100%;
+    vertical-align: middle;
+ }
+ 
+ 
+ h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7.5vw;
+    font-weight: 100;
+    text-align: justify;
+ }
+ 
+
+.card-title {
+    text-align: left;
+}
+.card-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5em;
+}
+ p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5em;
+ }
+
+ .figcaption {
+    text-align: justify;
+    font-size: 1em;
+}
+
+
+
+#Sec2 {
+    background-color: #0038FF;
+  }
+
+#Sec2 h1 {
+    color: white; 
+    margin: 10px;
+}
+
+#Sec2 .figcaption {
+    color: white;
+}
+
+.btn-primary {
+    width: 200px;
+    background-color: white;
+    --bs-btn-hover-bg: #0037ff0c;
+    --bs-btn-active-bg: white;
+    --bs-btn-border-color: #0038FF;
+    --bs-btn-border-radius: 0px;
+    --bs-btn-border-width: 2px;
+}
+
+.offcanvas-header img {
+width: 240px;
+}
+
+.offcanvas-body a {
+    font-size: 1.3em;
+}
+
