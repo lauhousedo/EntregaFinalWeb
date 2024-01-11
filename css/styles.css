@@ -8,7 +8,7 @@
  
  body {
     
-    margin: 10px;
+    margin: 0px;
     height: 100vh;
  }
  
@@ -93,4 +93,72 @@
 .figcaption {
     text-align: justify;
     font-size: 1em;
+}
+
+@media (max-width: 1900px) and (min-width: 1701px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+   .carousel-container {
+      margin-top: -250px;
+   }
+
+   .margen-propio {
+      margin-top: 300px;
+   }
+
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+}
+
+@media (max-width: 1199px) and (min-width: 995px) {
+   .carousel-container {
+      margin-top: -200px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+}
+
+@media (max-width: 994px) and (min-width: 770px) {
+   .carousel-container {
+      margin-top: -150px;
+   }
+
+   .margen-propio {
+      margin-top: 400px;
+   }
+
+   
+
+}
+
+@media (max-width: 769px) and (min-width: 570px) {
+   .carousel-container {
+      margin-top: 0px;
+   }
+
+   .margen-propio {
+      margin-top: 200px;
+   }
+
+h1 {
+   font-size: 9vw;
+}
+
 }
