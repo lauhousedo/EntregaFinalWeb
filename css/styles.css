@@ -36,6 +36,32 @@
     font-size: 1.5em;
  }
  
+ .btn-primary {
+   width: 200px;
+   background-color: white;
+   --bs-btn-hover-bg: #0037ff0c;
+   --bs-btn-active-bg: white;
+   --bs-btn-border-color: #0038FF;
+   --bs-btn-border-radius: 0px;
+   --bs-btn-border-width: 2px;
+}
+
+.offcanvas-header img {
+width: 240px;
+}
+
+
+.offcanvas-body a {
+   font-size: 1.3em;
+}
+
+button.btn.btn-primary {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+ }
+
  #apartado1 {
     background-color: #0038FF;
  }
