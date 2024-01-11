@@ -1,0 +1,105 @@
+* {
+    margin-right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0038FF;
+ }
+ 
+ 
+ body {
+    height: 100vh;
+ }
+ 
+ 
+ img {
+    width: 100%;
+    vertical-align: middle;
+ }
+ 
+ 
+ h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7.5vw;
+    font-weight: 100;
+    text-align: justify;
+    margin-left: 20px;
+ }
+ h2 {
+   font-family: 'DM Sans', sans-serif;
+   font-weight: 100;
+   text-align: justify;
+   margin-left: 10px;
+}
+ 
+ 
+ p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1vw;
+    text-align: justify;
+    margin-left: 10px;
+ }
+
+ figcaption {
+    font-size: 1em;
+ }
+
+ .galeria {
+   margin-bottom: 200px;
+}
+   
+ .carousel-container {
+    margin-top: -400px;
+ }
+
+ .margen-propio {
+    margin-top: 200px;
+ }
+ .marquee-container {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    background-color: #0038FF;
+  }
+
+ .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 10s linear infinite;
+  }
+
+  .marquee p {
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+  }
+  
+  @keyframes marquee {
+    from { left: 100%; }
+    to { left: -100%; }
+  }
+
+  .btn-primary {
+   width: 200px;
+   background-color: white;
+   --bs-btn-hover-bg: #0037ff0c;
+   --bs-btn-active-bg: white;
+   --bs-btn-border-color: #0038FF;
+   --bs-btn-border-radius: 0px;
+   --bs-btn-border-width: 2px;
+}
+
+.offcanvas-header img {
+width: 240px;
+}
+
+.offcanvas-body a {
+   font-size: 1.3em;
+}
+
+
+ 
