@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
  }
 
  
@@ -73,10 +74,14 @@
    100%{background-position:0% 46%}
 }
 
-   body{
-      margin-top: 10px;
+   main {
+     
       margin-bottom: 10px;
       background-color: #0300ff;
+   }
+
+   body{
+    background-color: #0300ff;
    }
 
      h1 {
@@ -93,9 +98,7 @@
        margin: auto;
        line-height: 1.5;
        
-     }
-
-     
+     }    
 
      h2 {
       font-family: 'DM Sans', sans-serif;
@@ -127,15 +130,24 @@
      
 
        }
-      
 
-       
-      }
-         
+       .dot {
+         height: 30%;
+         width: 30%;
+         top: 80%;
+         left: 50%;
+         background-color: #ffffff;
+         border-radius: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         position: absolute     
+       }     
+
+      }       
      
      p {
         font-family: 'DM Sans', sans-serif;
-        font-size: 5em;
+        font-size: 2vw;
      }
     
      figcaption {
@@ -148,9 +160,13 @@
       h3{
          font-size: 6vw;
 
+      }   
+
+      p {
+font-size: 4vw;
       }
 
-   
+
       }
 
       @media (max-width: 991.98px) { 
@@ -159,10 +175,13 @@
             width: 400px;
           }
 
+          .card1 {
+           margin-left: 15px;
+            
+          }
+
+         
        }
-
-
-
 
      .page-link {
       color:#ffffff;
@@ -186,23 +205,19 @@
       --secondary: #22D2A0;
       --background: white;
       --border: #0300ff;
-
     } 
 
     .card {
       background-color: var(--background);
       display: block;
-
       min-height: 80px;
       border: 3px solid var(--primary);
-   
      
       box-shadow: 5px -5px 0 -2px var(--background), 5px -5px var(--border),
             10px -10px 0 -2px var(--background), 10px -10px var(--border), 
             15px -15px 0 -2px var(--background), 15px -15px var(--border), 
             20px -20px 0 -2px var(--background), 20px -20px var(--border); 
       transition: box-shadow 0.5s, top 0.5s, left 0.5s;
-      
       top: 0;
       left: 0;
       cursor: pointer;
@@ -210,8 +225,35 @@
     
     .card:hover {
       top: -5px;
-
       left: 1px;
+      box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
+          0 0 0 -2px var(--background), 0 0 0 0  var(--yellow),
+          0 0 0 -2px var(--background), 0 0 0 0  var(--orange),
+          0 0 0 -2px  var(--background), 0 0 0 0  var(--red);
+    }
+
+    .card1 {
+      background-color: var(--background);
+      display: block;
+
+      min-height: 80px;
+      border: 3px solid var(--primary);
+   
+     
+      box-shadow: -5px 5px 0 -2px var(--background), -5px 5px var(--border),
+            -10px 10px 0 -2px var(--background), -10px 10px var(--border), 
+            -15px 15px 0 -2px var(--background), -15px 15px var(--border), 
+            -20px 20px 0 -2px var(--background), -20px 20px var(--border); 
+      transition: box-shadow 0.5s, top 0.5s, left 0.5s;
+      
+      top: 0;
+      left: 0;
+      cursor: pointer;
+    }
+    
+    .card1:hover {
+      top: 10px;
+      left: -1px;
       box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
           0 0 0 -2px var(--background), 0 0 0 0  var(--yellow),
           0 0 0 -2px var(--background), 0 0 0 0  var(--orange),
@@ -221,20 +263,14 @@
 
     blockquote {
       font-family: 'DM Sans', sans-serif;
-     
-
       color: #0300ff;
       
    }
    
    section#block_content {
       background: #fff;
-       text-align: left;
-       
+       text-align: left;     
    }
- 
-  
-   
 
 
    .imagehover {
@@ -267,13 +303,106 @@
     }
     
     .icon {
-      color: white;
-      font-size: 50px;
+      font-size: 200%;
       position: absolute;
-      top: 50%;
+      top: 80%;
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       text-align: center;
     }
+
+    .hover {
+      position: absolute;
+      top: 90%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-decoration: none;
+      
+    }
+
+    .bi {
+      color:black;
+    }
    
+    .dot {
+      height: 30%;
+      width: 20%;
+      top: 80%;
+      left: 50%;
+      background-color: #ffffff;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      position: absolute;  
+   
+    }
+
+    
+    .rounded-text {
+      width: 50%; 
+      transform: rotate(-103deg); 
+      font-family: 'DM Sans', sans-serif;
+
+    }
+
+    .white {
+      fill: #fff;
+    }
+    .yellow {
+      fill: #ffdc2a;
+    }
+    .green {
+      fill: #00d0ff;
+    }
+    @keyframes rotating {
+      from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+    .rotating {
+      animation: rotating 12s linear infinite;
+    }
+    @keyframes coloring {
+      0% {
+        fill: #fff;
+      }
+      35% {
+        fill: #ffda2a;
+      }
+      75% {
+        fill: #00d3b9;
+      }
+      100% {
+        fill: #fff;
+      }
+    }
+    .coloring {
+      animation: coloring 12s linear infinite;
+    }
+
+    .btn-primary {
+      width: 200px;
+      background-color: white;
+      --bs-btn-hover-bg: #0037ff0c;
+      --bs-btn-active-bg: white;
+      --bs-btn-border-color: #0038FF;
+      --bs-btn-border-radius: 0px;
+      --bs-btn-border-width: 2px;
+  }
+  
+  .offcanvas-header img {
+  width: 240px;
+  }
+  
+  .offcanvas-body a {
+      font-size: 1.3em;
+      color: #0038FF;
+  }
+    
+
+    
